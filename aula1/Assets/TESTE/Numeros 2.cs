@@ -11,13 +11,13 @@ public class Numeros2 : MonoBehaviour
     private int NumeroDeTentativas = 10;
 
     private bool oJogoEstáRodando = true;
-    private Random rand = new Random();
+   // private Random rand = new Random();
     private int sorteado; 
     
     
     void Start()
     {
-        sorteado = rand.Next(menor, maior + 1);
+      //  sorteado = rand.Next(menor, maior + 1);
 
     }
 
