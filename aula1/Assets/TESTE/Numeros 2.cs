@@ -13,14 +13,14 @@ public class Numeros2 : MonoBehaviour
 
     bool oJogoEstáRodando = true;
 
-    private Random rand = new Random();
+    //private Random rand = new Random();
     private int sorteado;
 
     void Start()
     {
-        sorteado = rand.Next(menor, maior + 1);
+        //sorteado = rand.Next(menor, maior + 1);
 
-        Debug.Log("Pensei em um numero entre '+menor+' e '+maior+', tente adivinhar");
+        //Debug.Log("Pensei em um numero entre '+menor+' e '+maior+', tente adivinhar");
     }
 
     void Update()
@@ -28,7 +28,7 @@ public class Numeros2 : MonoBehaviour
         //testa o numero quando aparte a tecla de espaço
         if (Input.GetKeyDown(KeyCode.Space)) ;
         {
-            Debug.Log("Você tem +NumeroDeTentativas+ 'tentativas!'");
+            //Debug.Log("Você tem +NumeroDeTentativas+ 'tentativas!'");
             int NUmeroDigitado = Numero;
 
         }

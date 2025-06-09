@@ -1,33 +1,59 @@
 using System;
-using System.IO;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
-    private int numero = 4;
-
+    
     public float velocidade = 40;
-    // Start is called on the first execution of update after the MonoBehaviour is created
-
+    public float forcaDoPulo = 10;
+    
+    private bool noChao = false;
+    
+    private SpriteRenderer sprite;
+    private Rigidbody2D rb;
+    
     void Start()
     {
-        numero = 0;
+        sprite = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
-    // update is called once per frame 
 
+       
     void Update()
     {
-        //Debug. Log (numero);
-        //Debug. Log (numero) = numero + 1;
-
         if (Input.GetKey(KeyCode.A))
         {
-            gameObject.transform.position += new Vector3(-velocidade * Time.deltaTime, 0, 0);
+            gameObject.transform.position += new Vector3(-velocidade * Time.deltaTime,0,0);
+            sprite.flipX = true;
         }
-
+        
         if (Input.GetKey(KeyCode.D))
         {
-            gameObject.transform.position += new Vector3(velocidade * Time.deltaTime, 0, 0);
+            gameObject.transform.position += new Vector3(velocidade * Time.deltaTime,0,0);
+            sprite.flipX = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && noChao == true)
+        {
+            rb.AddForce(new Vector2(0,forcaDoPulo), ForceMode2D.Impulse);
+        }
+
+    }
+
+    void OnCollisionEnter2D(Collision2D colisao)
+    {
+        //if (colisao.gameObject.tag == "Chao")
+        if(colisao.gameObject.CompareTag("Chao"))
+        {
+            noChao = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D colisao)
+    {
+        if(colisao.gameObject.CompareTag("Chao"))
+        {
+            noChao = false;
         }
     }
 }
