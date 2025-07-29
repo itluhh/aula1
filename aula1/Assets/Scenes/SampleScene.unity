@@ -1106,6 +1106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade: 40
   forcaDoPulo: 10
+<<<<<<< HEAD
 --- !u!1 &1929567053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ce1714b5138cd445885970c9ed29139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> 0c3b8ceb4300818da60f0138ff9aa51400345ff3
 --- !u!1001 &5905586891890024967
 PrefabInstance:
   m_ObjectHideFlags: 0
