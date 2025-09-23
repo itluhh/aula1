@@ -5,7 +5,11 @@ public class Player : MonoBehaviour
 {
     
     public float velocidade = 40;
+<<<<<<< HEAD
+    public float forcaDoPulo = 4;
+=======
     public float forcaDoPulo = 10;
+>>>>>>> 0c3b8ceb4300818da60f0138ff9aa51400345ff3
     
     private bool noChao = false;
     

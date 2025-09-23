@@ -65,6 +65,7 @@ MonoBehaviour:
   preview: {fileID: -3604256930052969394}
   dependencies:
 <<<<<<< HEAD:aula1/Assets/tarefa do alien/Lit2DSceneTemplate.scenetemplate
+<<<<<<< HEAD:aula1/Assets/tarefa do alien/Lit2DSceneTemplate.scenetemplate
   - dependency: {fileID: 2800000, guid: e62cf0545f1e3224e939b899f19a4aef, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 7400000, guid: 957885d92e71bea48a5d7aa26467d257, type: 2}
@@ -79,17 +80,39 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: e62cf0545f1e3224e939b899f19a4aef, type: 3}
     instantiationMode: 0
+=======
+  - dependency: {fileID: 11400000, guid: fc3b423208cfca84199b38245193df60, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 63a2c58651d3cf747bef3fba2d11d2e1, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 34f205411107e334f882b923420ac6b9, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 82152db1b35f762448f4979836115cfa, type: 2}
+    instantiationMode: 1
+>>>>>>> 33b033b487aaad66c6c3fe717bdcc3417fff0973:aula1/Assets/Settings/Lit2DSceneTemplate.scenetemplate
   - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     instantiationMode: 0
-  - dependency: {fileID: 7400000, guid: e09e0b5d508aca9418008e74f382165c, type: 2}
+  - dependency: {fileID: 11400000, guid: d61904093d21fe14cb9022c508bfd91d, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: bdc04f0332d83b1489b4f140f006cbfc, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 0276763ff2d852845bcc4b281e71091a, type: 3}
     instantiationMode: 0
-  - dependency: {fileID: 2800000, guid: 16114ca611b63ef48a66a579655683eb, type: 3}
+  - dependency: {fileID: 11400000, guid: d5e8e533e393ae4488489ed641f4d0c9, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 9100000, guid: 8b22e77fa64d45b419297e3dec08c1e6, type: 2}
     instantiationMode: 0
+<<<<<<< HEAD:aula1/Assets/tarefa do alien/Lit2DSceneTemplate.scenetemplate
   - dependency: {fileID: 2800000, guid: 52b2b48d1dadd654cb2ee9e56e1a7fe5, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 7400000, guid: 68ab13d47e6e3654b91c7154bafc7e34, type: 2}
 >>>>>>> 0c3b8ceb4300818da60f0138ff9aa51400345ff3:aula1/Assets/Settings/Lit2DSceneTemplate.scenetemplate
+=======
+  - dependency: {fileID: 2800000, guid: bc53e2bb9ae69f0469854015661d9921, type: 3}
+>>>>>>> 33b033b487aaad66c6c3fe717bdcc3417fff0973:aula1/Assets/Settings/Lit2DSceneTemplate.scenetemplate
     instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 6557ffb327180cd4c8941e70d48bfaaa, type: 2}
+    instantiationMode: 1
   templatePipeline: {fileID: 0}
   badge: {fileID: 0}
   addToDefaults: 1
