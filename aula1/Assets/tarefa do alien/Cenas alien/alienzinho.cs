@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class ALIEN : MonoBehaviour
+public class alienzinho : MonoBehaviour
 {
     
     public float velocidade = 40;
